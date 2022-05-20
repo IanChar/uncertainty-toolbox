@@ -20,6 +20,7 @@ from uncertainty_toolbox.viz import (
 
 @pytest.fixture
 def get_test_set():
+    bla = 'asdf'
     y_pred = np.array([1, 2, 3])
     y_std = np.array([0.1, 0.5, 1])
     y_true = np.array([1.5, 3, 2])
